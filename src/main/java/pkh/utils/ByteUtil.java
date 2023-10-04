@@ -29,24 +29,6 @@ public class ByteUtil {
         }
     }
 
-    public static int bytesToInt(byte[] bytes)
-    {
-        return toInt(bytes, 0);
-    }
-
-    public static int bytesToInt(byte[] src, int srcOff)
-    {
-        int tot = 0;
-
-        for (int i = srcOff; i < src.length; i++) {
-            tot <<= 8;
-            // tot += Integer.valueOf(i);
-            // support 1.4 mod
-            tot += (new Integer(src[i]).intValue());
-        }
-
-        return tot;
-    }
 
     public static int bytesToInt(byte[] src, int srcOff)
     {
