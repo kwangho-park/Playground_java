@@ -1,4 +1,4 @@
-# Playground_java (자바 놀이터) 
+# Playground_java
 
 1. 개요
    - java 코드 테스트를 위한 프로젝트
