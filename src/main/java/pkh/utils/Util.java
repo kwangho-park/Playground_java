@@ -1,4 +1,4 @@
-package kr.com.dreamsecurity.hotp.util;
+package pkh.utils;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
