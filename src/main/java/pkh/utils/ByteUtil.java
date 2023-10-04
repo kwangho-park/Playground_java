@@ -8,7 +8,7 @@ import java.util.Vector;
 
 public class ByteUtil {
 
-    public static long toLong(byte[] src, int srcOff)
+    public static long bytesToLong(byte[] src, int srcOff)
     {
         long tot = 0;
 
@@ -29,12 +29,12 @@ public class ByteUtil {
         }
     }
 
-    public static int toInt(byte[] bytes)
+    public static int bytesToInt(byte[] bytes)
     {
         return toInt(bytes, 0);
     }
 
-    public static int toInt(byte[] src, int srcOff)
+    public static int bytesToInt(byte[] src, int srcOff)
     {
         int tot = 0;
 
