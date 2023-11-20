@@ -1,19 +1,19 @@
 package pkh.main;
 
-import pkh.utils.ByteUtil;
+
 import pkh.constants.RESULT;
 
 public class Main {
     public static void main(String[] args) {
 
-        // 열거형 테스트
-        System.out.println("열거형(enum) 테스트");
+        // 코딩 테스트
+        CodingTest codingTest = new CodingTest();
 
-        RESULT result = null;
-        result = RESULT.SUCCESS;
+        int num = 13;
+        boolean bool = true;
 
-        System.out.println("열거형 타입 변수 정의 및 데이터 입력 테스트 : "+result);
-
-
+        System.out.println(codingTest.isPrime(num));
     }
+
+
 }
