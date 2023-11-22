@@ -1,10 +1,10 @@
-package pkh.main;
+package pkh.codingTest;
 
 
 /**
  * 간단한 코딩 테스트 확인용
  */
-public class CodingTest {
+public class Company {
 
     // 소수 확인
     // 소수 : 1과 자기 자신만 약수로 가지는 수

@@ -1,18 +1,16 @@
 package pkh.main;
 
 
-import pkh.constants.RESULT;
+import pkh.OOP_codingTest.Client;
 
 public class Main {
     public static void main(String[] args) {
 
-        // 코딩 테스트
-        CodingTest codingTest = new CodingTest();
+        Client client  = new Client();
 
-        int num = 13;
-        boolean bool = true;
+        client.client("manual");        // "manual" or "auto"
 
-        System.out.println(codingTest.isPrime(num));
+
     }
 
 
