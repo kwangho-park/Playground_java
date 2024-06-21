@@ -29,6 +29,7 @@ public class Client {
         System.out.println("My name is " + atom.getName());
         atom.move();
         atom.attack();
-
+        System.out.println("test");
+        System.out.println("test");
     }
 }
